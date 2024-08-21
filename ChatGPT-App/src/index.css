@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family:f1 ;
+    src: url(./fonts/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCIhM907w.woff2);
+}
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: f1;
+    
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+}
